@@ -1,0 +1,477 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.first nav ul li {
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+}
+
+.first {
+    background-color:orange;
+    height: 55px;
+}
+
+
+
+.first nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.hero-image {
+    margin-top: 10px;
+    background-image: url("./sven-mieke-MsCgmHuirDo-unsplash.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+
+.hero-image h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 3px;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+
+.hero-image p {
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.first {
+    display: flex;
+}
+
+.first img {
+    height: 57px;
+    width: 55px;
+}
+
+.first ul a {
+    font-size: 20px;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+
+.main img {
+    margin: 30px;
+}
+
+.main {
+    display: flex;
+}
+
+.main p {
+    font-size: 18px;
+}
+
+.main h1 {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main h3 {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    border: 0.2px solid grey;
+    border-radius: 5px;
+    height: 400px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.div-img img {
+    height: 250px;
+    width: 350px;
+}
+
+.aa {
+
+    margin-top: 3px;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    text-align: center;
+    color: black;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+
+.info {
+    color: blanchedalmond;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.row {
+    font-size: larger;
+}
+
+.sec {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exercise {
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.og {
+    background-color: white;
+}
+
+.list {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 15px;
+    text-align: center;
+}
+
+
+.sec-img {
+    margin-top: 30px;
+    background-image: url(./sec-img.jpg);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+}
+
+.sec-img p {
+    font-size: 150px;
+    text-align: left;
+    font-style: oblique;
+    color: rgb(220, 202, 160);
+}
+
+.watch p {
+    margin-top: 15px;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.watch:hover {
+    color: rgb(37, 86, 37);
+}
+
+.faqs {
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    font-optical-sizing: auto;
+    font-weight:<weight>;
+    color: black;
+}
+
+.bottom-card {
+    border: 0.2px solid grey;
+    border-radius: 5px;
+    height: 400px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.findgym {
+    background-image: url(./searchgym.jpg);
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+}
+
+.search {
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 100px;
+}
+
+.search2 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    background: white;
+}
+
+.findbutton {
+    margin-top: 30px;
+    
+}
+
+.gallery{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    gap: 0%;
+    margin-left: 240px;
+}
+
+.gallery img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid white;
+    transition: all ease-out 0.3s;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.gallery img:hover{
+    width: 40%;
+}
+
+.map{
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+.aaa{
+    margin-left: 10px;
+    margin-top: 3px;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    color: black;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+
+.viraj{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 10px;
+}   
+
+
+
+.main-block1 p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main-block2 img{
+    float: right;
+    margin: 20px;
+    height: 400px;
+    width: 500px;
+}
+
+.author1{
+    display: flex;
+}
+
+.author1 p{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.author1 img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.ps{
+    height: 800px;
+    border: 3px solid white;
+  }
+  .head{
+    text-align: center;
+      padding: 60px;
+      font-size: 80px;
+      padding-bottom: 80px;
+      
+    }
+    .head h1{
+      font-size: 80px;
+      
+    }
+    .head span{
+      color: orange;
+    }
+    .ourProgram{
+      display: flex;
+     margin: 60px;
+     
+    }
+    .ourProgram .crd{
+      margin-inline: 22px;
+      text-align: center;
+      
+    }
+    .ourProgram .crd img:hover{
+      width: 103%;
+    }
+  
+    
+    .ourPlan{
+      display: flex;
+      justify-content: center;
+      
+      margin-bottom: 660px;
+      
+    }
+    .ourPlan .card9{
+      width: 400px;
+      height: 490px;
+      padding: 10px;
+      background-color:rgb(239, 181, 73);
+      text-align: center;
+      margin-inline: 22px;
+      border-radius: 20px;
+      border: 6px solid rgb(254, 254, 254);
+    }
+    .card9 i{
+      font-size: 22px;
+      margin-top: 22px;
+      color: rgb(255, 170, 0);
+    }
+    .card9 h3{
+      margin-top: 22px;
+      color: rgb(255, 255, 255);
+  
+    }
+    .card9 h1{
+      margin-top: 22px;
+      color: rgb(0, 0, 0);
+    }
+    .card9 p{
+      margin-top: 12px;
+      color: rgb(6, 9, 36);
+      font-size: 18px;
+    }
+    .card9 button{
+      margin-top: 22px;
+      width: 130px;
+      height: 38px;
+      background-color: black;
+      border: none;
+      color: rgb(242, 239, 239);
+      font-size: 18px;
+      border-radius: 15px;
+    }
+    .card9 button:hover{
+      border: 2px solid white;
+      background-color: transparent;
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+    }
+  
+  .back{
+    height: 70px;
+    background-color: orange;
+  }
+
+  .back h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  .footer{
+    height: 200px;
+    display: flex;
+    color: white;
+    background-image:url("./bg2.jpg");
+    justify-content: space-evenly;
+  }
+
+  .footer1 a{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    font-size: 25px;
+  }
+
+  .footer3 a{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    font-size: 25px;
+  }
+  
+  .footer1 h3{
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+
+  .footer3 h3{
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+
+  .footer1 ul{
+    margin-top: 20px;
+  }
+
+  .footer3 ul{
+    margin-top: 20px;
+  }
+
+  .footer2 img{
+    margin-top: 30px;
+  }
+
+.closing{
+    height: 120px;
+    background-color:black;
+    color:white;
+}
+
+.closing h2{
+    text-align: center;
+}
+
+.closing h3{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.closing p{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+}

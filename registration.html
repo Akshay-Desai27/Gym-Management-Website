@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("./searchgym.jpg");
+  }
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 150px;
+    
+  }
+  input[type="text"], input[type="tel"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .error {
+    color: red;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Registration Form</h2>
+  <form id="registrationForm" onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <span id="nameError" class="error"></span>
+
+    <label for="contactNo">Contact No:</label>
+    <input type="tel" id="contactNo" name="contactNo" pattern="[0-9]{10}" required>
+    <span id="contactNoError" class="error"></span>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<script>
+  function validateForm() {
+    var name = document.getElementById('name').value;
+    var contactNo = document.getElementById('contactNo').value;
+    var contactNoPattern = /^\d{10}$/;
+
+    var nameError = document.getElementById('nameError');
+    var contactNoError = document.getElementById('contactNoError');
+    
+    var isValid = true;
+
+    nameError.innerHTML = "";
+    contactNoError.innerHTML = "";
+
+    if (name.trim() === "") {
+      nameError.innerHTML = "Name is required";
+      isValid = false;
+    }
+
+    if (!contactNoPattern.test(contactNo)) {
+      contactNoError.innerHTML = "Invalid contact number";
+      isValid = false;
+    }
+
+    return isValid;
+  }
+</script>
+
+</body>
+</html>

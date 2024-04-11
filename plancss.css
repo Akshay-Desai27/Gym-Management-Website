@@ -1,0 +1,86 @@
+.ps{
+    height: 800px;
+    border: 3px solid white;
+  }
+  .head{
+    text-align: center;
+      padding: 60px;
+      font-size: 80px;
+      padding-bottom: 80px;
+      
+    }
+    .head h1{
+      font-size: 80px;
+      
+    }
+    .head span{
+      color: orange;
+    }
+    .ourProgram{
+      display: flex;
+     margin: 60px;
+     
+    }
+    .ourProgram .crd{
+      margin-inline: 22px;
+      text-align: center;
+      
+    }
+    .ourProgram .crd img:hover{
+      width: 103%;
+    }
+  
+    
+    .ourPlan{
+      display: flex;
+      justify-content: center;
+      
+      margin-bottom: 660px;
+      
+    }
+    .ourPlan .card9{
+      width: 400px;
+      height: 490px;
+      padding: 10px;
+      background-color:rgb(239, 181, 73);
+      text-align: center;
+      margin-inline: 22px;
+      border-radius: 20px;
+      border: 6px solid rgb(254, 254, 254);
+    }
+    .card9 i{
+      font-size: 22px;
+      margin-top: 22px;
+      color: rgb(255, 170, 0);
+    }
+    .card9 h3{
+      margin-top: 22px;
+      color: rgb(255, 255, 255);
+  
+    }
+    .card9 h1{
+      margin-top: 22px;
+      color: rgb(0, 0, 0);
+    }
+    .card9 p{
+      margin-top: 12px;
+      color: rgb(6, 9, 36);
+      font-size: 18px;
+    }
+    .card9 button{
+      margin-top: 22px;
+      width: 130px;
+      height: 38px;
+      background-color: black;
+      border: none;
+      color: rgb(242, 239, 239);
+      font-size: 18px;
+      border-radius: 15px;
+    }
+    .card9 button:hover{
+      border: 2px solid white;
+      background-color: transparent;
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+    }
+  
